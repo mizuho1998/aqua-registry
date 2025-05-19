@@ -2,8 +2,8 @@
 name: Count packages
 on:
   workflow_dispatch: {}
-  schedule:
-    - cron: "0 0 * * *" # daily
+  # schedule:
+  #   - cron: "0 0 * * *" # daily
 jobs:
   count-packages:
     runs-on: ubuntu-latest
